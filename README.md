@@ -8,13 +8,21 @@ Diease, Symptom, Operation, Time, Pharmaceutical, examination
 # Dataset format:
 All the data is stored in a JSON file.There are 6 fields in the file. An example as follows:
 ```
-{
+    {
         "sentence_id": "1",
         "speaker": "患者",
         "sentence": "2020年9月因卵巢颗粒细胞瘤手术切除全子宫双附件大网膜，2022年3月发现复发，请医生给予治疗方案。",
         "BIO_label": "O O O O O O O O B-Diease I-Diease I-Diease I-Diease I-Diease I-Diease I-Diease O O B-Operation I-Operation I-Operation I-Operation I-Operation I-Operation I-Operation I-Operation I-Operation I-Operation I-Operation O O O O O O O ",
         "type": ["Diease","Operation"],
         "entity": ["卵巢颗粒细胞瘤","切除全子宫双附件大网膜"]
+    },
+    {
+        "sentence_id": "2",
+        "speaker": "医生",
+        "sentence": "颗粒细胞瘤复发，建议尽量手术切除，术后补充化疗。",
+        "BIO_label": "B-Diease I-Diease I-Diease I-Diease I-Diease I-Diease I-Diease O O O O O O O O O O O O O O O O O",
+        "type": ["Diease"],
+        "entity": ["颗粒细胞瘤复发"]
     },
 ```
 # The JSON field details
