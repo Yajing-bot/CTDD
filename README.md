@@ -35,7 +35,7 @@ type: Entities Type
 entities: Entities Words
 ```
 # Final Words
-As our paper is currently not in the public domain, only 100 sets of dialogues will be made public for quality testing and public understanding.<br>
+This dataset currently provides 100 sets of dialogues for quality testing and public understanding, while the rest of the dialogue content is being prepared in a publicly available format. Stay tuned!<br>
 Thanks for using our corpus! Please don't forget to let us know if our dataset advance the current state of the art forward in your Chinese natural language processing task.<br>
 # Contacts
 CTDD cannot be used for projects other than scientific research.<br>
